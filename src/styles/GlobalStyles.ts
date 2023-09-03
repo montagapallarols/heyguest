@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    background-color: #FFFFFF;
+    background-color: ${Color.PrimaryWhite};
     color: ${Color.EbonyClay};
     font-family: 'Maven Pro, sans-serif', 'Roboto', 'Arial';
     font-size: ${theme.layout.body.fontSize};

@@ -1,4 +1,5 @@
 import { pxToRem } from "@/utils/pxToRem";
+import { Color } from "./Color";
 
 export const theme = {
   layout: {
@@ -18,6 +19,6 @@ export const theme = {
   },
   nav: {
     borderRadius: "80px",
-    backgroundColor: "#fff",
+    backgroundColor: Color.PrimaryWhite,
   },
 };

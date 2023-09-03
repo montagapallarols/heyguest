@@ -45,7 +45,7 @@ export default function NavMenu() {
 const MenuContainer = styled.nav`
   position: sticky;
   margin: 0 auto;
-  width: 35%;
+  width: ${pxToRem(440)};
   height: ${pxToRem(50)};
   display: flex;
   align-items: center;
